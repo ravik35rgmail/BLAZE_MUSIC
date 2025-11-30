@@ -1,0 +1,417 @@
+[29-Nov-25 12:11:58 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[29-Nov-25 12:12:06 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[29-Nov-25 12:12:06 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[29-Nov-25 12:12:06 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[29-Nov-25 12:12:06 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[29-Nov-25 12:12:06 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[29-Nov-25 12:12:12 - INFO] - ShrutixMusic.platforms.Youtube.py - API URL loaded successfully
+[29-Nov-25 12:12:13 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[29-Nov-25 12:12:28 - INFO] - ShrutixMusic.core.bot - Music Bot Started as ECHOWAVE 
+[29-Nov-25 12:12:28 - INFO] - ShrutixMusic.plugins - Successfully Imported Modules...
+[29-Nov-25 12:12:28 - INFO] - ShrutixMusic.core.userbot - Starting Assistants...
+[29-Nov-25 12:12:30 - INFO] - ShrutixMusic.core.userbot - Assistant 1 started successfully
+[29-Nov-25 12:12:30 - INFO] - ShrutixMusic.core.userbot - Assistant 1 ID: 8516123142, Username: SEEYA_04
+[29-Nov-25 12:12:31 - INFO] - ShrutixMusic.core.userbot - Assistant 1 joined support chats
+[29-Nov-25 12:12:31 - INFO] - ShrutixMusic.core.userbot - Trying to send message to LOGGER_ID: -1003194214901
+[29-Nov-25 12:12:31 - INFO] - ShrutixMusic.core.userbot - Logger group info: ECHOWAVE LOGS
+[29-Nov-25 12:12:32 - INFO] - ShrutixMusic.core.userbot - Assistant 1 status in logger group: ChatMemberStatus.ADMINISTRATOR
+[29-Nov-25 12:12:32 - INFO] - ShrutixMusic.core.userbot - Assistant 1 successfully sent message to logger group
+[29-Nov-25 12:12:32 - INFO] - ShrutixMusic.core.userbot - Assistant 1 Started as <a href=tg://user?id=8516123142>𝐀𝐧֟፝𝐬𝐡𝐮•ʏᴛ࿐</a>
+[29-Nov-25 12:12:32 - INFO] - ShrutixMusic.core.call - Starting PyTgCalls Client...
+
+[29-Nov-25 12:12:35 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:13:10 - INFO] - ShrutixMusic - Shrutix Music Bot Started Successfully.
+
+Don't forget to visit @ECHOWAVESUPPORT01
+[29-Nov-25 12:14:08 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[29-Nov-25 12:14:11 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[29-Nov-25 12:14:11 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[29-Nov-25 12:14:11 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[29-Nov-25 12:14:11 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[29-Nov-25 12:14:11 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[29-Nov-25 12:14:13 - INFO] - ShrutixMusic.platforms.Youtube.py - API URL loaded successfully
+[29-Nov-25 12:14:15 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[29-Nov-25 12:14:33 - INFO] - ShrutixMusic.core.bot - Music Bot Started as ECHOWAVE 
+[29-Nov-25 12:14:33 - INFO] - ShrutixMusic.plugins - Successfully Imported Modules...
+[29-Nov-25 12:14:33 - INFO] - ShrutixMusic.core.userbot - Starting Assistants...
+[29-Nov-25 12:14:36 - INFO] - ShrutixMusic.core.userbot - Assistant 1 started successfully
+[29-Nov-25 12:14:36 - INFO] - ShrutixMusic.core.userbot - Assistant 1 ID: 8516123142, Username: SEEYA_04
+[29-Nov-25 12:14:36 - INFO] - ShrutixMusic.core.userbot - Assistant 1 joined support chats
+[29-Nov-25 12:14:36 - INFO] - ShrutixMusic.core.userbot - Trying to send message to LOGGER_ID: -1003194214901
+[29-Nov-25 12:14:37 - INFO] - ShrutixMusic.core.userbot - Logger group info: ECHOWAVE LOGS
+[29-Nov-25 12:14:37 - INFO] - ShrutixMusic.core.userbot - Assistant 1 status in logger group: ChatMemberStatus.ADMINISTRATOR
+[29-Nov-25 12:14:38 - INFO] - ShrutixMusic.core.userbot - Assistant 1 successfully sent message to logger group
+[29-Nov-25 12:14:38 - INFO] - ShrutixMusic.core.userbot - Assistant 1 Started as <a href=tg://user?id=8516123142>𝐀𝐧֟፝𝐬𝐡𝐮•ʏᴛ࿐</a>
+[29-Nov-25 12:14:38 - INFO] - ShrutixMusic.core.call - Starting PyTgCalls Client...
+
+[29-Nov-25 12:14:40 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:14:47 - INFO] - ShrutixMusic - Shrutix Music Bot Started Successfully.
+
+Don't forget to visit @ECHOWAVESUPPORT01
+[29-Nov-25 12:15:22 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:15:23 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:15:42 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:16:34 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 87, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:19:49 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[29-Nov-25 12:19:52 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[29-Nov-25 12:19:52 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[29-Nov-25 12:19:52 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[29-Nov-25 12:19:52 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[29-Nov-25 12:19:52 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[29-Nov-25 12:19:55 - INFO] - ShrutixMusic.platforms.Youtube.py - API URL loaded successfully
+[29-Nov-25 12:19:56 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[29-Nov-25 12:20:30 - INFO] - ShrutixMusic.core.bot - Music Bot Started as ECHOWAVE 
+[29-Nov-25 12:20:30 - INFO] - ShrutixMusic.plugins - Successfully Imported Modules...
+[29-Nov-25 12:20:30 - INFO] - ShrutixMusic.core.userbot - Starting Assistants...
+[29-Nov-25 12:20:31 - INFO] - ShrutixMusic.core.userbot - Assistant 1 started successfully
+[29-Nov-25 12:20:31 - INFO] - ShrutixMusic.core.userbot - Assistant 1 ID: 8516123142, Username: SEEYA_04
+[29-Nov-25 12:20:33 - INFO] - ShrutixMusic.core.userbot - Assistant 1 joined support chats
+[29-Nov-25 12:20:33 - INFO] - ShrutixMusic.core.userbot - Trying to send message to LOGGER_ID: -1003194214901
+[29-Nov-25 12:20:36 - INFO] - ShrutixMusic.core.userbot - Logger group info: ECHOWAVE LOGS
+[29-Nov-25 12:20:37 - INFO] - ShrutixMusic.core.userbot - Assistant 1 status in logger group: ChatMemberStatus.ADMINISTRATOR
+[29-Nov-25 12:20:40 - INFO] - ShrutixMusic.core.userbot - Assistant 1 successfully sent message to logger group
+[29-Nov-25 12:20:40 - INFO] - ShrutixMusic.core.userbot - Assistant 1 Started as <a href=tg://user?id=8516123142>𝐀𝐧֟፝𝐬𝐡𝐮•ʏᴛ࿐</a>
+[29-Nov-25 12:20:40 - INFO] - ShrutixMusic.core.call - Starting PyTgCalls Client...
+
+[29-Nov-25 12:20:51 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 113, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:21:04 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 113, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:21:05 - INFO] - ShrutixMusic - Shrutix Music Bot Started Successfully.
+
+Don't forget to visit @ECHOWAVESUPPORT01
+[29-Nov-25 12:21:34 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 113, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:23:06 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[29-Nov-25 12:23:10 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[29-Nov-25 12:23:10 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[29-Nov-25 12:23:10 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[29-Nov-25 12:23:10 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[29-Nov-25 12:23:10 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[29-Nov-25 12:23:13 - INFO] - ShrutixMusic.platforms.Youtube.py - API URL loaded successfully
+[29-Nov-25 12:23:14 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[29-Nov-25 12:23:22 - INFO] - ShrutixMusic.core.bot - Music Bot Started as ECHOWAVE 
+[29-Nov-25 12:23:22 - INFO] - ShrutixMusic.plugins - Successfully Imported Modules...
+[29-Nov-25 12:23:22 - INFO] - ShrutixMusic.core.userbot - Starting Assistants...
+[29-Nov-25 12:23:35 - INFO] - ShrutixMusic.core.userbot - Assistant 1 started successfully
+[29-Nov-25 12:23:35 - INFO] - ShrutixMusic.core.userbot - Assistant 1 ID: 8516123142, Username: SEEYA_04
+[29-Nov-25 12:23:37 - INFO] - ShrutixMusic.core.userbot - Assistant 1 joined support chats
+[29-Nov-25 12:23:37 - INFO] - ShrutixMusic.core.userbot - Trying to send message to LOGGER_ID: -1003194214901
+[29-Nov-25 12:23:37 - INFO] - ShrutixMusic.core.userbot - Logger group info: ECHOWAVE LOGS
+[29-Nov-25 12:23:37 - INFO] - ShrutixMusic.core.userbot - Assistant 1 status in logger group: ChatMemberStatus.ADMINISTRATOR
+[29-Nov-25 12:23:50 - INFO] - ShrutixMusic.core.userbot - Assistant 1 successfully sent message to logger group
+[29-Nov-25 12:23:50 - INFO] - ShrutixMusic.core.userbot - Assistant 1 Started as <a href=tg://user?id=8516123142>𝐀𝐧֟፝𝐬𝐡𝐮•ʏᴛ࿐</a>
+[29-Nov-25 12:23:50 - INFO] - ShrutixMusic.core.call - Starting PyTgCalls Client...
+
+[29-Nov-25 12:24:03 - INFO] - ShrutixMusic - Shrutix Music Bot Started Successfully.
+
+Don't forget to visit @ECHOWAVESUPPORT01
+[29-Nov-25 12:24:08 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 105, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:24:15 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 105, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:27:24 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 105, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:27:27 - ERROR] - pyrogram.dispatcher - Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/utils/decorators/language.py", line 57, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/ShrutixMusic/ShrutixMusic/plugins/bot/start.py", line 105, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3598, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 281, in send_photo
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 107, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 551, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 514, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ButtonUserPrivacyRestricted: Telegram says: [400 BUTTON_USER_PRIVACY_RESTRICTED] - The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button. (caused by "messages.SendMedia")
+[29-Nov-25 12:29:32 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[29-Nov-25 12:29:33 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[29-Nov-25 12:29:33 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[29-Nov-25 12:29:33 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[29-Nov-25 12:29:33 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[29-Nov-25 12:29:33 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[29-Nov-25 12:29:35 - INFO] - ShrutixMusic.platforms.Youtube.py - API URL loaded successfully
+[29-Nov-25 12:29:36 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[29-Nov-25 12:29:50 - INFO] - ShrutixMusic.core.bot - Music Bot Started as ECHOWAVE 
+[29-Nov-25 12:29:50 - INFO] - ShrutixMusic.plugins - Successfully Imported Modules...
+[29-Nov-25 12:29:50 - INFO] - ShrutixMusic.core.userbot - Starting Assistants...
+[29-Nov-25 12:29:51 - INFO] - ShrutixMusic.core.userbot - Assistant 1 started successfully
+[29-Nov-25 12:29:51 - INFO] - ShrutixMusic.core.userbot - Assistant 1 ID: 8516123142, Username: SEEYA_04
+[29-Nov-25 12:29:55 - INFO] - ShrutixMusic.core.userbot - Assistant 1 joined support chats
+[29-Nov-25 12:29:55 - INFO] - ShrutixMusic.core.userbot - Trying to send message to LOGGER_ID: -1003194214901
+[29-Nov-25 12:29:56 - INFO] - ShrutixMusic.core.userbot - Logger group info: ECHOWAVE LOGS
+[29-Nov-25 12:29:57 - INFO] - ShrutixMusic.core.userbot - Assistant 1 status in logger group: ChatMemberStatus.ADMINISTRATOR
+[29-Nov-25 12:29:58 - INFO] - ShrutixMusic.core.userbot - Assistant 1 successfully sent message to logger group
+[29-Nov-25 12:29:58 - INFO] - ShrutixMusic.core.userbot - Assistant 1 Started as <a href=tg://user?id=8516123142>𝐀𝐧֟፝𝐬𝐡𝐮•ʏᴛ࿐</a>
+[29-Nov-25 12:29:58 - INFO] - ShrutixMusic.core.call - Starting PyTgCalls Client...
+
+[29-Nov-25 12:30:22 - INFO] - ShrutixMusic - Shrutix Music Bot Started Successfully.
+
+Don't forget to visit @ECHOWAVESUPPORT01
+[29-Nov-25 12:39:47 - INFO] - ShrutixMusic.core.mongo - Connecting to your Mongo Database...
+[29-Nov-25 12:39:48 - INFO] - ShrutixMusic.core.mongo - Connected to your Mongo Database.
+[29-Nov-25 12:39:48 - INFO] - ShrutixMusic.core.dir - Directories Updated.
+[29-Nov-25 12:39:48 - INFO] - ShrutixMusic.core.git - Git Client Found [VPS DEPLOYER]
+[29-Nov-25 12:39:48 - INFO] - ShrutixMusic.misc - Local Database Initialized.
+[29-Nov-25 12:39:48 - INFO] - ShrutixMusic.core.bot - Starting Bot...
+[29-Nov-25 12:39:51 - INFO] - ShrutixMusic.platforms.Youtube.py - API URL loaded successfully
+[29-Nov-25 12:39:52 - INFO] - ShrutixMusic.misc - Sudoers Loaded.
+[29-Nov-25 12:40:03 - INFO] - ShrutixMusic.core.bot - Music Bot Started as ECHOWAVE 
+[29-Nov-25 12:40:03 - INFO] - ShrutixMusic.plugins - Successfully Imported Modules...
+[29-Nov-25 12:40:03 - INFO] - ShrutixMusic.core.userbot - Starting Assistants...
+[29-Nov-25 12:40:04 - INFO] - ShrutixMusic.core.userbot - Assistant 1 started successfully
+[29-Nov-25 12:40:04 - INFO] - ShrutixMusic.core.userbot - Assistant 1 ID: 8516123142, Username: SEEYA_04
+[29-Nov-25 12:40:05 - INFO] - ShrutixMusic.core.userbot - Assistant 1 joined support chats
+[29-Nov-25 12:40:05 - INFO] - ShrutixMusic.core.userbot - Trying to send message to LOGGER_ID: -1003194214901
+[29-Nov-25 12:40:05 - INFO] - ShrutixMusic.core.userbot - Logger group info: ECHOWAVE LOGS
+[29-Nov-25 12:40:05 - INFO] - ShrutixMusic.core.userbot - Assistant 1 status in logger group: ChatMemberStatus.ADMINISTRATOR
+[29-Nov-25 12:40:05 - INFO] - ShrutixMusic.core.userbot - Assistant 1 successfully sent message to logger group
+[29-Nov-25 12:40:05 - INFO] - ShrutixMusic.core.userbot - Assistant 1 Started as <a href=tg://user?id=8516123142>𝐀𝐧֟፝𝐬𝐡𝐮•ʏᴛ࿐</a>
+[29-Nov-25 12:40:05 - INFO] - ShrutixMusic.core.call - Starting PyTgCalls Client...
+
+[29-Nov-25 12:40:20 - INFO] - ShrutixMusic - Shrutix Music Bot Started Successfully.
+
+Don't forget to visit @ShrutiBots
